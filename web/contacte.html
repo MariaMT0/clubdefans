@@ -1,122 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>WandaVision</title>
-        <meta name="description" content="Web club de fans de WandaVision">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favico.ico">
-    </head>
-    <body>
-        <br>
-        <img img src="../img/logo.png" width="200" height="200" alt="logo de la web">
-        <h1>WandaVision</h1>
-        <div id="navegador">
-          <nav> <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./general.html">General</a></li>
-            <li><a href="./fotos.html">Fotos</a></li>
-            <li><a href="./videos.html">Videos</a></li>
-            <li><a href="./agenda.html">Agenda</a></li>
-            <li><a href="./contacte.html">Contacte</a></li>
-        </ul>
-      </nav>
-           
-        </div>
-        <h1>Contacto</h1>
-        <div class="contact_form">
 
-            <div class="formulario">      
-              <h2>Formulario de contacto</h2>
-                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-        
-        
-                  <form action="submeter-formulario.php" method="post">       
-        
-                    
-                        <p>
-                          <label for="nombre" class="colocar_nombre">Nombre
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                        </p>
-                      
-                        <p>
-                          <label for="email" class="colocar_email">Email
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                        </p>
-                    
-                        <p>
-                          <label for="telefone" class="colocar_telefono">Teléfono
-                          </label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                        </p>    
-                      
-                        <p>
-                          <label for="website" class="colocar_website">Sitio web
-                          </label>
-                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                        </p>    
-                      
-                        <p>
-                          <label for="asunto" class="colocar_asunto">Asunto
-                            <span class="obligatorio">*</span>
-                          </label>
-                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                        </p>    
-                      
-                        <p>
-                          <label for="mensaje" class="colocar_mensaje">Mensaje
-                            <span class="obligatorio">*</span>
-                          </label>                     
-                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                        </p>                    
-                      
-                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-        
-                        <p class="aviso">
-                          <span class="obligatorio"> * </span>los campos son obligatorios.
-                        </p>          
-                    
-                  </form>
-            </div>  
-          </div>
-          <h2>Servidor de Discord</h2>
-          <iframe src="https://discordapp.com/widget?id=899290828248346685&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        <h2>Dirección</h2>
-        <p>Calle: la Rambla,140<br>
-           Ciudad: Barcelona<br>
-           Provincia: Barcelona<br>
-           Codigo Postal: 08007</p>
-        <div style="width: 100%"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=La%20Rambla,140+(Club%20de%20Fans%20de%20WandaVision)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/">Radio en el mapa</a></iframe></div>
+<head>
+  <meta charset="utf-8">
+  <title>WandaVision</title>
+  <meta name="description" content="Web club de fans de WandaVision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favico.ico">
+</head>
+
+<body>
+  <br>
+  <img img src="../img/logo.png" width="200" height="200" alt="logo de la web">
+  <h1>WandaVision</h1>
+  <div id="navegador">
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./general.html">General</a></li>
+        <li><a href="./fotos.html">Fotos</a></li>
+        <li><a href="./videos.html">Videos</a></li>
+        <li><a href="./agenda.html">Agenda</a></li>
+        <li><a href="./contacte.html">Contacte</a></li>
+      </ul>
+    </nav>
+
+  </div>
+  <h1>Contacto</h1>
+  <h2>Formulario de contacto</h2>
+  <div>
+    <form action="./login.php" method="POST">
+  <p>
+    <label for="user">Usuario*:</label>
+    <input id="IDuser" type="text" placeholder="Introduce tu nombre" name="nombre" maxlength="100" required>
+  </p>
+  <p>
+    <label for="email">Email*: </label>
+    <input id="IDemail" type="email" placeholder="Introduce tu emial" name="correo" required>
+  </p>
+  <p>
+    <label for="phone">Telefono:</label>
+    <input id="IDphone" placeholder="Introduce tu telefono" name="phone" type="tel">
+  </p>
+  <p>
+    <input id="IDfichero" type="file" accept="image/x- png,image/gif,image/jpeg" name="archivos">
+  </p>
+  <p>
+    <label for="asunto">Asunto: </label>
+    <input type="text" id="IDasunto" name="asunto" placeholder="Introduce el asunto" size="15" maxlength="40">
+  </p>
+  <p>
+    <label for="mensaje">Mensaje*: </label>
+    <input type="text" id="IDmensaje" name="mensaje" placeholder="Introduce tu mensaje" size="40" maxlength="350" required>
+  </p>
+  <p>
+    <label for="enviar">Enviar el formulario: </label>
+    <input value="Enviar" type="submit">
+  </p>
+  <p>
+    <label for="reset"></label>
+    <input value="Limpiar el Formulario" type="reset">
+  </p>   
+  </form>
+  </div>
+  
 
 
-        <footer>
-            <br>
-            <p>Copyright &copy; Disney 2020-2021 By: Maria Mompart Tiscar</p>
-            <form action="https://www.facebook.com/wandavisionofficial/" target="_blank">
-                    <input type="submit" value="Facebook" />
-            </form>
-            <form action="https://twitter.com/wandavision?lang=es" target="_blank">
-                    <input type="submit" value="Twitter" />
-            </form>
-            <form action="https://www.instagram.com/wandavision/" target="_blank">
-                    <input type="submit" value="Instagram" />
-            </form>
-            <form action="https://www.reddit.com/r/WANDAVISION/" target="_blank">
-                    <input type="submit" value="Reddit" />
-            </form>
-            <form action="https://www.disneyplus.com/es-es" target="_blank">
-                    <input type="submit" value="Disney +" />
-            </form>
-            <form action="https://www.imdb.com/title/tt9140560/" target="_blank">
-                    <input type="submit" value="IMDb" />
-            </form>
-            <form action="https://marvel.fandom.com/wiki/WandaVision" target="_blank">
-                    <input type="submit" value="Marvel Database" />
-            </form>
-        </footer>
-    </body>
-    </html>
+
+  <h2>Servidor de Discord</h2>
+  <iframe src="https://discordapp.com/widget?id=899290828248346685&theme=dark" width="350" height="500"
+    allowtransparency="true" frameborder="0"
+    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <h2>Dirección</h2>
+  <p>Calle: la Rambla,140<br>
+    Ciudad: Barcelona<br>
+    Provincia: Barcelona<br>
+    Codigo Postal: 08007</p>
+  <div style="width: 100%"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0"
+      marginwidth="0"
+      src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=La%20Rambla,140+(Club%20de%20Fans%20de%20WandaVision)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+        href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/">Radio en el mapa</a></iframe></div>
+
+
+  <footer>
+    <br>
+    <p>Copyright &copy; Disney 2020-2021 By: Maria Mompart Tiscar</p>
+    <form action="https://www.facebook.com/wandavisionofficial/" target="_blank">
+      <input type="submit" value="Facebook" />
+    </form>
+    <form action="https://twitter.com/wandavision?lang=es" target="_blank">
+      <input type="submit" value="Twitter" />
+    </form>
+    <form action="https://www.instagram.com/wandavision/" target="_blank">
+      <input type="submit" value="Instagram" />
+    </form>
+    <form action="https://www.reddit.com/r/WANDAVISION/" target="_blank">
+      <input type="submit" value="Reddit" />
+    </form>
+    <form action="https://www.disneyplus.com/es-es" target="_blank">
+      <input type="submit" value="Disney +" />
+    </form>
+    <form action="https://www.imdb.com/title/tt9140560/" target="_blank">
+      <input type="submit" value="IMDb" />
+    </form>
+    <form action="https://marvel.fandom.com/wiki/WandaVision" target="_blank">
+      <input type="submit" value="Marvel Database" />
+    </form>
+  </footer>
+</body>
+
+</html>
