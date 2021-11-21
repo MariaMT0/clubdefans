@@ -1,0 +1,269 @@
+/* Fuentes añadidas a la web */
+@font-face {
+  font-family: montserrat;
+  src: url(./fonts/montserrat/Montserrat-Regular.eot);
+  src: url(./fonts/montserrat/Montserrat-Regular.ttf);
+  src: url(./fonts/montserrat/Montserrat-Regular.woff);
+  src: url(./fonts/montserrat/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: montserrat-semi-bold;
+  src: url(./fonts/montserrat-SemiBold/Montserrat-SemiBold.eot);
+  src: url(./fonts/montserrat-SemiBold/Montserrat-SemiBold.ttf);
+  src: url(./fonts/montserrat-SemiBold/Montserrat-SemiBold.woff);
+  src: url(./fonts/montserrat-SemiBold/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+  font-family: montserrat-light;
+  src: url(./fonts/montserrat-light/Montserrat-Light.eot);
+  src: url(./fonts/montserrat-light/Montserrat-Light.ttf);
+  src: url(./fonts/montserrat-light/Montserrat-Light.woff);
+  src: url(./fonts/montserrat-light/Montserrat-Light.otf);
+}
+
+@font-face {
+  font-family: marvel;
+  src: url(./fonts/marvel/marvel\ 2.eot);
+  src: url(./fonts/marvel/marvel\ 2.ttf);
+  src: url(./fonts/marvel/marvel\ 2.woff);
+}
+
+/* Color de fondo de la web */
+html {
+background-image: url(../img/fondo.gif);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Logo de la web */
+#logo {
+  float: right;
+  padding: 15px;
+  margin: -5px;
+}
+
+/* Titulo de la web */
+#titulo {
+  font-family: marvel;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+/* Barra de navegación de la web*/
+
+#navegador nav {
+  max-width: 800px;
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 25%,
+    #ffffff 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 0 auto;
+  padding: 60px 0;
+}
+#navegador ul {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 25%,
+    rgba(255, 255, 255, 0.2) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+#navegador li {
+  background-color: transparent;
+  font-family: montserrat;
+  font-size: 15px;
+}
+
+#navegador nav ul li {
+  display: inline-block;
+}
+
+#navegador nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+#navegador a {
+  color: #880e4f;
+  position: relative;
+  text-decoration: white;
+  font-size: 18px;
+}
+#navegador a:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Titulos de la web */
+h1 {
+  font-family: montserrat-semi-bold;
+  font-style: normal;
+  font-size: 30px;
+  color: white;
+}
+h2 {
+  font-family: montserrat;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+}
+
+h3 {
+  font-family: montserrat;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+h4 {
+  font-family: montserrat;
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+}
+
+/* Parragrafos de la web */
+p {
+  font-family: montserrat-light;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+}
+
+/* Botones de las redes sociales */
+#boton input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}
+#boton1 input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton1 input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}
+#boton2 input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton2 input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}
+
+#boton3 input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton3 input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}
+#boton4 input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton4 input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}
+#boton5 input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton5 input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}
+#boton6 input {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  float: left;
+  margin: 0px 1px;
+  border: 1px solid white;
+  border-bottom: 4px white solid;
+  border-right: 4px white solid;
+}
+#boton6 input:hover {
+  background-image: -webkit-linear-gradient(top, #880e4f, #b71c1c);
+  color: black;
+  border: 1px solid black;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+}

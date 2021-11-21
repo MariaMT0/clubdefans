@@ -6,12 +6,13 @@
   <title>WandaVision</title>
   <meta name="description" content="Web club de fans de WandaVision">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/common.css">
   <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favico.ico">
 </head>
 
 <body>
   <br>
-  <img img src="../img/logo.png" width="200" height="200" alt="logo de la web">
+  <img src="../img/logo.png" id="logo" width="200" height="200" alt="logo de la web">
   <h1>WandaVision</h1>
   <div id="navegador">
     <nav>
@@ -52,7 +53,7 @@
           required>
       </p>
       <p>
-        <input id="IDfichero" type="file" accept="image/x- png,image/gif,image/jpeg" name="archivos">
+        <input id="IDfichero" type="file" accept="image/*,audio/*,video/*" multiple name="archivos">
       </p>
       <p>
         <label for="enviar">Enviar el formulario: </label>
@@ -75,34 +76,34 @@
     Codigo Postal: 08007</p>
   <div style="width: 100%"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0"
       marginwidth="0"
-      src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=La%20Rambla,140+(Club%20de%20Fans%20de%20WandaVision)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-        href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/">Radio en el mapa</a></iframe></div>
+      src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=La%20Rambla,140+(Club%20de%20Fans%20de%20WandaVision)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+      <a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/"></a></iframe></div>
 
 
   <footer>
-    <br>
     <p>Copyright &copy; Disney 2020-2021 By: Maria Mompart Tiscar</p>
-    <form action="https://www.facebook.com/wandavisionofficial/" target="_blank">
+    <form id="boton" action="https://www.facebook.com/wandavisionofficial/" target="_blank">
       <input type="submit" value="Facebook" />
     </form>
-    <form action="https://twitter.com/wandavision?lang=es" target="_blank">
+    <form id="boton1" action="https://twitter.com/wandavision?lang=es" target="_blank">
       <input type="submit" value="Twitter" />
     </form>
-    <form action="https://www.instagram.com/wandavision/" target="_blank">
+    <form id="boton2" action="https://www.instagram.com/wandavision/" target="_blank">
       <input type="submit" value="Instagram" />
     </form>
-    <form action="https://www.reddit.com/r/WANDAVISION/" target="_blank">
+    <form id="boton3" action="https://www.reddit.com/r/WANDAVISION/" target="_blank">
       <input type="submit" value="Reddit" />
     </form>
-    <form action="https://www.disneyplus.com/es-es" target="_blank">
+    <form id="boton4" action="https://www.disneyplus.com/es-es" target="_blank">
       <input type="submit" value="Disney +" />
     </form>
-    <form action="https://www.imdb.com/title/tt9140560/" target="_blank">
+    <form id="boton5" action="https://www.imdb.com/title/tt9140560/" target="_blank">
       <input type="submit" value="IMDb" />
     </form>
-    <form action="https://marvel.fandom.com/wiki/WandaVision" target="_blank">
+    <form id="boton6" action="https://marvel.fandom.com/wiki/WandaVision" target="_blank">
       <input type="submit" value="Marvel Database" />
     </form>
+
   </footer>
 </body>
 

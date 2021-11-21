@@ -6,13 +6,15 @@
         <title>WandaVision</title>
         <meta name="description" content="acuerdate de cambiar la descripción">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favico.ico">
+        <link rel="stylesheet" type="text/css" href="./css/common.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link id="favicon" rel="icon" type="image/vnd.microsoft.icon" href="./img/favico.ico">
 </head>
 
 <body>
         <br>
-        <img src="./img/logo.png" width="200" height="200" alt="logo de la web">
-        <h1>WandaVision</h1>
+        <img src="./img/logo.png" id="logo" width="200" height="200" alt="logo de la web">
+        <h1 id="titulo" >WANDAVISION</h1>
         <div id="navegador">
                 <nav>
                         <ul>
@@ -24,36 +26,90 @@
                                 <li><a href="./web/contacte.html">Contacto</a></li>
                         </ul>
                 </nav>
-               
+
         </div>
 
-        <div>
-                <h2>Ultimas Noticias</h2>
-
-                <img src="./img/cartel.jpg" width="409" height="512" alt="Imagen cartel presentación pagina web">
-                <h3>Noticias publicadas en Facebook</h3>
+        <div id="noticias">
+                <h2 id="title">Ultimas Noticias</h2>
                 <aside>
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwandavisionofficial%2F%3F&tabs=timeline&width=900&height=792&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-                                width="900" height="660" style="border:none;overflow:hidden"
-                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <div class="noticia">
+                        <img class="izquierda" src="./img/cartel.jpg" width="409" height="512"
+                        alt="Imagen cartel presentación pagina web">
+                                <div class="divA">
+                                        <h4>Marvel revela nueva imagen de la Bruja Escarlata en Doctor Strange</h4>
+                                        <p>La popular serie WandaVision transmitió su último episodio el 5 de marzo de 2021; sin
+                                        embargo, pese a su gran éxito, los televidentes se vieron decepcionados al no
+                                        confirmarse una segunda temporada. No obstante, imágenes reveladas mostrarían a
+                                        la Bruja Escarlata dentro de nuevas producciones.<br>
+                                        En diferentes oportunidades, Disney ha dejado más que claro que no quiere que su
+                                        público olvide la famosa serie, por lo que un nuevo póster promocional de
+                                        WandaVision y una imagen revelada por Marvel Studios la relacionaría con la
+                                        película de Doctor Strange.<br>
+                                        En el póster podemos apreciar a Wanda usando su atuendo de Bruja Escarlata y
+                                        atravesando las paredes con su magia roja.<br>
+                                        La imagen también podría ser un adelanto de la próxima aparición de Wanda,
+                                        interpretada por Elizabeth Olsen, en la nueva película Doctor Strange in the
+                                        multiverse of madness. Esta suposición tiene relación con una de las fotografías
+                                        filtradas de dicha película, la cual contiene una imagen bastante similar a la
+                                        del póster. <br>
+                                        En ese sentido, se podría deducir que la Bruja Escarlata sería una especie de
+                                        antagonista, quien con el fin de resucitar a sus hijos Billy y Tommy por medio
+                                        del Darkhold causaría agujeros gigantescos en la realidad.<br>
+                                        Actualmente, hay muy pocas probabilidades de tener una segunda temporada de
+                                        WandaVision; sin embargo, está claro que veremos más de esta guerrera en futuras
+                                        producciones.
+                                </p></div>
+                                <div class="divB">
+                                        <h4>Agata Harkness tendrá su propia serie en Disney Plus</h4>
+                                        <p>Marvel Studios está desarrollando un spin-off de WandaVision centrado en la bruja
+                                        mala Agatha Harkness para Disney Plus que sería unos de los muchos proyectos
+                                        relacionado con el UCM.
+                                        La villana de WandaVision tendrá su propia serie en Disney+. Este nuevo spin-off
+                                        estará protagonizada por la propia Kathryn Hahn (Agatha Harkness en la ficción)
+                                        y será escrita y producida por Jac Schaeffer, la guionista principal de
+                                        WandaVision. Según Variety, esta nueva entrega será una comedia negra, los
+                                        detalles de la trama son escasos, pero sería el primer proyecto de Schaeffer
+                                        tras firmar un acuerdo de tres años con Marvel Studios y 20th Television.
+                                        En WandaVision, Kathryn Hahn interpreta a Agnes, la vecina entrometida de Wanda
+                                        y Visión, hasta que se descubre que en realidad se llama Agatha y es una
+                                        poderosa bruja que sobrevivió a los juicios de Salem y ahora está usando magia
+                                        negra para manipular a la Bruja Escarlata, pero al final de la primera temporada
+                                        nuestra protagonista, Wanda (Elizabeth Olsen), obliga a Agatha Harkness a vivir
+                                        como Agnes en Westview.
+                                        El spin-off de WandaVision es el más reciente show que se da a conocer de la
+                                        programación que Disney+ está preparando para los fanáticos de Marvel. Hace
+                                        poco, la vicepresidenta del estudio, Victoria Alonso, reveló que están
+                                        desarrollando 31 proyectos y que la historia de Agatha Harkness es uno de ellos.
+                                </p></div>
+                        </div>
+
+
                 </aside>
+                
         </div>
         <footer>
                 <p>Copyright &copy; Disney 2020-2021 By: Maria Mompart Tiscar</p>
-                <form action="https://www.facebook.com/wandavisionofficial/" target="_blank">
-                        <input type="submit" value="Facebook" /></form>
-                <form action="https://twitter.com/wandavision?lang=es" target="_blank">
-                        <input type="submit" value="Twitter" /></form>
-                <form action="https://www.instagram.com/wandavision/" target="_blank">
-                        <input type="submit" value="Instagram" /></form>
-                <form action="https://www.reddit.com/r/WANDAVISION/" target="_blank">
-                        <input type="submit" value="Reddit" /></form>
-                <form action="https://www.disneyplus.com/es-es" target="_blank">
-                        <input type="submit" value="Disney +" /></form>
-                <form action="https://www.imdb.com/title/tt9140560/" target="_blank">
-                        <input type="submit" value="IMDb" /></form>
-                <form action="https://marvel.fandom.com/wiki/WandaVision" target="_blank">
-                        <input type="submit" value="Marvel Database" /></form>
+                <form id="boton" action="https://www.facebook.com/wandavisionofficial/" target="_blank">
+                        <input type="submit" value="Facebook" />
+                </form>
+                <form id="boton1" action="https://twitter.com/wandavision?lang=es" target="_blank">
+                        <input type="submit" value="Twitter" />
+                </form>
+                <form id="boton2" action="https://www.instagram.com/wandavision/" target="_blank">
+                        <input type="submit" value="Instagram" />
+                </form>
+                <form id="boton3" action="https://www.reddit.com/r/WANDAVISION/" target="_blank">
+                        <input type="submit" value="Reddit" />
+                </form>
+                <form id="boton4" action="https://www.disneyplus.com/es-es" target="_blank">
+                        <input type="submit" value="Disney +" />
+                </form>
+                <form id="boton5" action="https://www.imdb.com/title/tt9140560/" target="_blank">
+                        <input type="submit" value="IMDb" />
+                </form>
+                <form id="boton6" action="https://marvel.fandom.com/wiki/WandaVision" target="_blank">
+                        <input type="submit" value="Marvel Database" />
+                </form>
 
         </footer>
 </body>
