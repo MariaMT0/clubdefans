@@ -1,0 +1,36 @@
+div.gal1 div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(216, 215, 215, 0.63);
+    width: 40%;
+    display: inline-block;
+  }
+  
+  div.gal1 div.gallery:hover {
+    border: 1px solid rgb(93, 0, 0);
+  }
+  
+  div.gal1 div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.gal2 div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(216, 215, 215, 0.63);
+    width: 40%;
+    display: inline-block;
+  }
+  
+  div.gal2 div.gallery:hover {
+    border: 1px solid rgb(93, 0, 0);
+  }
+  
+  div.gal2 div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

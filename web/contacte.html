@@ -7,13 +7,14 @@
   <meta name="description" content="Web club de fans de WandaVision">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../css/contacte.css">
   <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favico.ico">
 </head>
 
 <body>
   <br>
   <img src="../img/logo.png" id="logo" width="200" height="200" alt="logo de la web">
-  <h1>WandaVision</h1>
+  <h1 id="titulo">WANDAVISION</h1>
   <div id="navegador">
     <nav>
       <ul>
@@ -32,45 +33,46 @@
   <div>
     <form action="./login.php" method="POST">
       <p>
-        <label for="user">Usuario*:</label>
+        <label for="user">Usuario: <span>*</span></label>
         <input id="IDuser" type="text" placeholder="Introduce tu nombre" name="nombre" maxlength="100" required>
       </p>
       <p>
-        <label for="email">Email*: </label>
-        <input id="IDemail" type="email" placeholder="Introduce tu emial" name="correo" required>
+        <label for="email">Email: <span>*</span> </label>
+        <input id="IDemail" type="email" placeholder="Introduce tu email" name="correo" required>
       </p>
       <p>
         <label for="phone">Telefono:</label>
-        <input id="IDphone" placeholder="Introduce tu telefono" name="phone" type="tel">
+        <input id="IDphone" placeholder="Introduce tu teléfono" name="phone" type="tel">
       </p>
       <p>
         <label for="asunto">Asunto: </label>
         <input type="text" id="IDasunto" name="asunto" placeholder="Introduce el asunto" size="15" maxlength="40">
       </p>
       <p>
-        <label for="mensaje">Mensaje*: </label>
-        <input type="text" id="IDmensaje" name="mensaje" placeholder="Introduce tu mensaje" size="40" maxlength="350"
-          required>
+        <label for="mensaje">Mensaje:  <span>*</span> </label>
+          <textarea id="IDmensaje" name="observaciones" rows="6" cols="50" required> </textarea>
       </p>
       <p>
         <input id="IDfichero" type="file" accept="image/*,audio/*,video/*" multiple name="archivos">
       </p>
       <p>
         <label for="enviar">Enviar el formulario: </label>
-        <input value="Enviar" type="submit">
+        <input id="enviar" value="Enviar" type="submit">
       </p>
       <p>
         <label for="reset"></label>
-        <input value="Limpiar el Formulario" type="reset">
+        <input id="reset" value="Limpiar el Formulario" type="reset">
       </p>
     </form>
   </div>
-  <h2>Servidor de Discord</h2>
-  <iframe src="https://discordapp.com/widget?id=899290828248346685&theme=dark" width="350" height="500"
-    allowtransparency="true" frameborder="0"
-    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <div class="discord">
+    <h2>Servidor de Discord</h2>
+    <iframe src="https://discordapp.com/widget?id=899290828248346685&theme=dark" width="350" height="500"
+      allowtransparency="true" frameborder="0"
+      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  </div>
   <h2>Dirección</h2>
-  <p>Calle: la Rambla,140<br>
+  <p class="dir">Calle: La Rambla, 140<br>
     Ciudad: Barcelona<br>
     Provincia: Barcelona<br>
     Codigo Postal: 08007</p>
